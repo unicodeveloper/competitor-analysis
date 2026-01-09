@@ -21,7 +21,7 @@ async function getDeepResearchStatus(
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        path: `/v1/deepresearch/${taskId}`,
+        path: `/v1/deepresearch/tasks/${taskId}/status`,
         method: 'GET',
         body: {}
       }),

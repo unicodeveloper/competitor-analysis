@@ -25,7 +25,7 @@ async function callValyuDeepResearch(
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        path: '/v1/deepresearch',
+        path: '/v1/deepresearch/tasks',
         method: 'POST',
         body: {
           input,

@@ -21,7 +21,7 @@ async function cancelDeepResearch(
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        path: `/v1/deepresearch/${taskId}/cancel`,
+        path: `/v1/deepresearch/tasks/${taskId}/cancel`,
         method: 'POST',
         body: {}
       }),
