@@ -192,6 +192,37 @@ body {
 
 /* Dark theme variables removed - light mode only */
 
+/* GitHub Ribbon Styles */
+.github-ribbon {
+  position: fixed;
+  top: 42px;
+  right: -43px;
+  z-index: 50;
+  padding: 5px 45px;
+  background-color: #151513;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 150ms ease;
+}
+
+.github-ribbon:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .github-ribbon {
+    font-size: 11px;
+    padding: 4px 35px;
+    top: 32px;
+    right: -38px;
+  }
+}
+
 @layer base {
   body {
     letter-spacing: var(--tracking-normal);
