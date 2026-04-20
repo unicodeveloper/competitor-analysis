@@ -33,6 +33,7 @@ Self-hosted mode is the simplest way to run the app. You only need a Valyu API k
 
 - Node.js 20+ installed
 - A Valyu API key (get one at [Valyu Platform](https://platform.valyu.ai))
+<img src="https://files.catbox.moe/n7fq4h.jpg" height="60">
 
 ### Steps
 
